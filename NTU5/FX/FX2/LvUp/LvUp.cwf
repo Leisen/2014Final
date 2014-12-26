@@ -1,0 +1,60 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_0536
+ModelPath .
+TexturePath .
+TotalFX 2
+
+BeginFX 0 Force
+{
+   Name ForceFX_7346
+   Life 60
+
+   Position    500     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Force 1 -50.000000 ParticleFX_2800
+}
+
+BeginFX 1 Particles
+{
+   Name ParticleFX_2800
+   Life 10
+   Parent Lyubu
+
+   Position     10     1     1   0.000000   0.000000   65.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   65.000000
+
+   Rotation     10     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     10     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  512  70.000000  150.000000  1  2
+   ParticleTexture  eye_lwy_t_sun_33_single  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 20.000000 0.000000
+   Emit 1 1.000000 5 5
+   ParticleVelocity 0.000000 0.000000 0.000000 0.000000 0.000000 20.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+

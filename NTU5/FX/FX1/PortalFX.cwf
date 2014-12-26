@@ -1,0 +1,40 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name PortalFXSystem_8798
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Plate
+{
+   Name PlateFX_9070
+   Life 45
+
+   Position     45     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     45     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     45     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   PlateType 2   60.000000  60.000000  1.000000  1.000000  1.000000  1.000000  eye_lwy_t_mul_  45  null
+   BlendType 2
+
+   PlateSize     45     1     1   60.000000   60.000000
+      Keys 1
+         K 0      0   60.000000   60.000000
+
+   PlateColor     45     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   1.000000   1.000000   1.000000   1.000000
+}
+

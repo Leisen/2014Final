@@ -1,0 +1,91 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_1609
+ModelPath .
+TexturePath .
+TotalFX 3
+
+BeginFX 0 Plate
+{
+   Name PlateFX_8748
+   Life 60
+
+   Position     60     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     60     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 2
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+         K 1     59   0.906308   0.000000   0.000000   0.422618
+
+   Visibility     60     1     1   1.000000
+      Keys 3
+         K 0      0   1.000000
+         K 1     50   1.000000
+         K 2     60   0.000000
+
+   PlateType 3   100.000000  100.000000  1.000000  1.000000  1.000000  1.000000  eye_fxl_shockwave_011  0  null
+   BlendType 2
+
+   PlateSize     60     1     1   100.000000   100.000000
+      Keys 1
+         K 0      0   100.000000   100.000000
+
+   PlateColor     60     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   1.000000   1.000000   1.000000   1.000000
+}
+
+BeginFX 1 Particles
+{
+   Name ParticleFX_3513
+   Life 30
+
+   Position     30     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     30     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     30     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  512  20.000000  20.000000  1  2
+   ParticleTexture  eye_fxl_lightning_00006  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 30.000000 10.000000
+   Emit 1 1.000000 10 5
+   ParticleVelocity 0.000000 0.000000 0.000000 30.000000 30.000000 10.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+
+BeginFX 2 Force
+{
+   Name ForceFX_9288
+   Life 100
+
+   Position    100     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    100     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    100     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Force 1 -50.000000 ParticleFX_3513
+}
+

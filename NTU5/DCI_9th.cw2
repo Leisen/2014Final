@@ -1,0 +1,9 @@
+# Script for setup a lighting environment
+# Version for cwViewer
+# By C.Wang 0710, 2010
+#
+
+
+RestoreWorkDirectory -OFF
+SetPath -Shader $Home/Data/DCI_9th/Shaders
+SetPath -Texture ./Textures

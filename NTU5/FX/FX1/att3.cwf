@@ -1,0 +1,35 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_9510
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Geometry
+{
+   Name GeometryFX_7509
+   Life 500
+
+   Position    500     1     1   0.000000   -50.000000   0.000000
+      Keys 3
+         K 0      0   0.000000   -50.000000   0.000000
+         K 1      5   0.000000   -50.000000   0.000000
+         K 2     15   0.000000   -100.000000   0.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Model Plane001
+   TextureInfo att3  0  att3
+   BlendType 1
+}
+

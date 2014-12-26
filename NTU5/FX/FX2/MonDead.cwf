@@ -1,0 +1,107 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_4891
+ModelPath .
+TexturePath .
+TotalFX 4
+
+BeginFX 0 Particles
+{
+   Name ParticleFX_0680
+   Life 30
+
+   Position     60     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     60     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     60     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  512  50.000000  50.000000  1  1
+   ParticleTexture  Dead_00  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 60.000000 10.000000
+   Emit 1 1.000000 0 5
+   ParticleVelocity 0.000000 0.000000 0.000000 3.000000 3.000000 3.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+
+BeginFX 1 Particles
+{
+   Name ParticleFX_9183
+   Life 60
+
+   Position    120     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    120     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    120     1     1   0.000000
+      Keys 1
+         K 0      0   0.000000
+
+   ParticleData  512  50.000000  50.000000  1  2
+   ParticleTexture  Dead_01  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 60.000000 10.000000
+   Emit 1 1.000000 1 5
+   ParticleVelocity 0.000000 0.000000 0.000000 3.000000 3.000000 3.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+
+BeginFX 2 Force
+{
+   Name ForceFX_8134
+   Life 60
+
+   Position     90     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     90     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     90     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Force 1 -50.000000 ParticleFX_0680
+}
+
+BeginFX 3 Force
+{
+   Name ForceFX_2336
+   Life 60
+
+   Position    120     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    120     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    120     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Force 1 -20.000000 ParticleFX_9183
+}
+

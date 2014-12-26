@@ -1,0 +1,41 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_7150
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Particles
+{
+   Name ParticleFX_0073
+   Life 15
+   Parent Robber_02
+
+   Position     15     1     1   0.000000   0.000000   0.000000
+      Keys 2
+         K 0      0   0.000000   0.000000   0.000000
+         K 1      4   0.000000   0.000000   5.000000
+
+   Rotation     15     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     15     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  45  120.000000  120.000000  1  3
+   ParticleTexture  smoke  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 15.000000 10.000000
+   Emit 1 1.000000 10 5
+   ParticleVelocity 0.000000 0.000000 0.000000 100.000000 100.000000 20.000000
+   ParticleDensity 0.030000
+   TextureAnimation 16 4 4
+   Etc 1 0 30.000000
+}
+

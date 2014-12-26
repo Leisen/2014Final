@@ -1,0 +1,44 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_0722
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Plate
+{
+   Name PlateFX_6243
+   Life 40
+
+   Position    40     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    40     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    40     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   PlateType 2   100.000000  100.000000  1.000000  1.000000  1.000000  1.000000  Smoke_013_Mask_01  0  null
+   BlendType 2
+
+   PlateSize    40     1     1   100.000000   100.000000
+      Keys 5
+         K 0      0    90.000000   90.000000
+         K 1      10   100.000000   100.000000
+         K 2      20   90.000000   90.000000
+         K 3      30   98.000000   98.000000
+         K 4      39   90.000000   90.000000
+
+
+   PlateColor    40     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   1.000000   1.000000   1.000000   1.000000
+}

@@ -1,0 +1,96 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_0722
+ModelPath .
+TexturePath .
+TotalFX 3
+
+BeginFX 0 Plate
+{
+   Name PlateFX_6243
+   Life 200
+
+   Position    200     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    200     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    200     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   PlateType 2   100.000000  100.000000  1.000000  1.000000  1.000000  1.000000  Smoke_013_Mask_01  0  null
+   BlendType 2
+
+   PlateSize    200     1     1   100.000000   100.000000
+      Keys 1
+         K 0      0   90.000000   90.000000
+
+   PlateColor    200     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   1.000000   1.000000   1.000000   1.000000
+}
+
+BeginFX 1 Particles
+{
+   Name ParticleFX_2175
+   Life 200
+
+   Position    200     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    200     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    200     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  512  70.000000  70.000000  1  2
+   ParticleTexture  Smoke_003 0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 1.000000 4.000000
+   Emit 1 1.000000 20 5
+   ParticleVelocity 0.000000 0.000000 0.000000 200.000000 200.000000 200.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+
+BeginFX 2 Particles
+{
+   Name ParticleFX_0150
+   Life 500
+
+   Position    500     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ParticleData  512  100.000000  100.000000  1  2
+   ParticleTexture  ball02  0.000000  30.000000  3.000000  1.000000 null
+   ParticleMass 5.000000 1.000000
+   ParticleLife 3.000000 2.000000
+   Emit 1 1.000000 2 5
+   ParticleVelocity 0.000000 0.000000 0.000000 3.000000 3.000000 3.000000
+   ParticleDensity 0.030000
+   TextureAnimation 1 1 1
+   Etc 1 0 30.000000
+}
+

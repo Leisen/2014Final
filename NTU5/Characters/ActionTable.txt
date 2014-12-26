@@ -1,0 +1,29 @@
+BCM001
+   idle
+   run
+   attack
+   dead
+   damage
+
+BCM002
+   idle
+   run
+   attack
+   dead
+   damage
+
+BCM003
+   idle
+   run
+   attack
+   attack2
+   dead
+   damage
+
+BCM005
+   idle
+   run
+   attack
+   attack2
+   dead
+   damage

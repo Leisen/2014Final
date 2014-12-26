@@ -1,0 +1,40 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name SadowFXSystem
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Plate
+{
+   Name PlateFX_5814
+   Life 500
+
+   Position    500     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   -7.000000   1.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   PlateType 3   40.000000  40.000000  1.000000  1.000000  1.000000  1.000000  decalshadow  0  null
+   BlendType 1
+
+   PlateSize    500     1     1   40.000000   40.000000
+      Keys 1
+         K 0      0   50.000000   50.000000
+
+   PlateColor    500     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000   1.000000
+}
+

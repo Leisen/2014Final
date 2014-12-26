@@ -1,0 +1,38 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_5957
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Sword
+{
+   Name SwordFX_7441
+   Life 500
+
+   Position    500     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ReferenceActor  Donzo
+   ReferenceNode  weapon01 weapon02
+   MaxBladeNumber  10
+   BladeDivision  3
+   BladeSegment  2
+   TextureInfo  att333 0 
+   BlendType  2
+   BladeColor  0.200000 0.500000 0.800000 0.200000
+}
+

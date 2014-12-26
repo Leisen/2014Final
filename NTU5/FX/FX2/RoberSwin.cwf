@@ -1,0 +1,38 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_9938
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Sword
+{
+   Name SwordFX_5582
+   Life 500
+
+   Position    500     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation    500     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility    500     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   ReferenceActor  Robber_02
+   ReferenceNode  Weapon01 Weapon02
+   MaxBladeNumber  3
+   BladeDivision  5
+   BladeSegment  5
+   TextureInfo   0 
+   BlendType  1
+   BladeColor  0.700000 0.800000 0.900000 0.400000
+}
+

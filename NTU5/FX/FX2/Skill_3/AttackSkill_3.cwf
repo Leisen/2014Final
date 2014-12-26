@@ -1,0 +1,42 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_9185
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Plate
+{
+   Name PlateFX_0910
+   Life 20
+
+   Position     20     1     1   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   0.000000   0.000000   0.000000
+
+   Rotation     20     3     1   1.000000   0.000000   0.000000   0.000000
+      Keys 1
+         K 0      0   1.000000   0.000000   0.000000   0.000000
+
+   Visibility     20     1     1   1.000000
+      Keys 2
+         K 0      0   1.000000
+         K 1     19   0.000000
+
+   PlateType 2   80.000000  80.000000  1.000000  1.000000  1.000000  1.000000  hit01  0  null
+   BlendType 1
+
+   PlateSize     20     1     1   80.000000   80.000000
+      Keys 2
+         K 0      0   120.000000   120.000000
+         K 1     19   160.000000   160.000000
+
+   PlateColor     20     1     1   1.000000   1.000000   1.000000   1.000000
+      Keys 1
+         K 0      0   1.000000   1.000000   1.000000   1.000000
+}
+

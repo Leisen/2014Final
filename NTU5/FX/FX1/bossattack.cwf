@@ -1,0 +1,35 @@
+# CWF file exported from Fly v2.0
+# By Chuan-Chang Wang
+#
+
+GameFX v 1
+
+Name NewFXSystem_2813
+ModelPath .
+TexturePath .
+TotalFX 1
+
+BeginFX 0 Geometry
+{
+   Name GeometryFX_6362
+   Life 65
+
+   Position     65     1     1   0.000000   0.000000   60.000000
+      Keys 3
+         K 0      0   0.000000   0.000000   60.000000
+         K 1     48   0.000000   0.000000   60.000000
+         K 2     52   0.000000   -100.000000   60.000000
+
+   Rotation     65     3     1   0.000001   0.382683   -0.000000   0.923880
+      Keys 1
+         K 0      0   0.000001   0.382683   -0.000000   0.923880
+
+   Visibility     65     1     1   1.000000
+      Keys 1
+         K 0      0   1.000000
+
+   Model attackWave
+   TextureInfo BANANA2  0  null
+   BlendType 2
+}
+
