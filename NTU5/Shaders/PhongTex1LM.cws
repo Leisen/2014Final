@@ -1,0 +1,28 @@
+# This shader implements Phong shading with texture and lightmap
+# C.Wang 1029, 2014
+#
+
+Effect PhongTex1LM.fx
+
+VertexType position normal texture 2 2 2   ; the vertex format
+
+Technique 1
+   0 PhongTex1LM 2 colorMap 0 0 lightMap 0 1      ; Tech 0 Name numTex (texNameInshader iTex iLayer)
+   
+Constant 16
+   0 E Matrix LocalToScreen mWVP
+   1 E Matrix Global mWorld
+   2 E Light Position MainLight mainLightPosition
+   3 E Light Direction MainLight mainLightDirection
+   4 E Light Color MainLight mainLightColor
+   5 E Light Type MainLight mainLightType
+   6 E Light SkyColor skyColor
+   7 E Light GroundColor groundColor
+   8 E Material Ambient ka
+   9 E Material Diffuse kd
+  10 E Material Specular ks
+  11 E Material Shineness shiness
+  12 E Camera Position cam camPosition
+  13 E BeTexture 0 beColormap
+  14 E BeTexture 1 beLightmap
+  15 E Material Data 0 difGain

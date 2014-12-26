@@ -1,0 +1,23 @@
+General Actions
+   Run 
+   Idle
+   Walk
+
+Attack Actions
+   CombatIdle
+   NormalAttack1
+   NormalAttack2
+   NormalAttack3
+   NormalAttack4
+   HeavyAttack1
+   HeavyAttack2
+   HeavyAttack3
+   UltimateAttack
+
+   guard
+
+Damage Actions
+   HeavyDamaged
+   RightDamaged
+   LeftDamaged
+   Die

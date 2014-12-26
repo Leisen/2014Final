@@ -1,0 +1,16 @@
+General Actions
+   Run 
+   Idle
+
+Attack Actions
+   AttackL1
+   AttackL2
+   AttackH
+   HeavyAttack
+   
+   Defence
+
+Damage Actions
+   DamageL
+   DamageH
+   Die

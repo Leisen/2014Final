@@ -1,0 +1,30 @@
+# This shader implements Cook & Torrance Reflection Model
+# C.Wang 0603, 2005
+#
+
+Effect CookTTex1.fx
+
+VertexType position normal texture 1 2 ; the vertex format
+
+Technique 1
+   0 CookTorranceTex1 1 colorMap 0 0        ; Tech 0 Name numTex (texNameInshader iTex iLayer)
+   
+Constant 18
+   0 E Matrix LocalToScreen mWVP
+   1 E Matrix Global mWorld
+   2 E Light Position MainLight mainLightPosition
+   3 E Light Direction MainLight mainLightDirection
+   4 E Light Color MainLight mainLightColor
+   5 E Light Type MainLight mainLightType
+   6 E Light SkyColor skyColor
+   7 E Light GroundColor groundColor
+   8 E Material Ambient ka
+   9 E Material Diffuse kd
+  10 E Material Specular ks
+  11 E Camera Position cam camPosition
+  12 E BeTexture 0 beColormap
+  13 E Material Data 0 diffRatio
+  14 E Material Data 1 specRatio
+  15 E Material Data 2 roughness
+  16 E Material Data 3 RI
+  17 E Material Data 4 colWeight

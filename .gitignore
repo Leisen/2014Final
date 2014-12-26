@@ -41,3 +41,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#SDK files
+Fly2_API/
+Microsoft DirectX SDK (August 2009)/
+OpenAL 1.1 SDK/
