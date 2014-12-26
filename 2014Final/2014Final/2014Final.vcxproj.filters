@@ -44,6 +44,9 @@
     <ClCompile Include="2014Final.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="final_prototype.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2014Final.rc">

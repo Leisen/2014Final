@@ -1,29 +1,36 @@
-﻿已經開始建置於 2014/12/26 下午 03:37:44。
+﻿已經開始建置於 2014/12/26 下午 10:20:12。
      1>節點 2 (rebuild 目標) 上的專案 "D:\Course\gs\2014Final\2014Final\2014Final\2014Final.vcxproj"。
      1>_PrepareForClean:
          正在刪除檔案 "Debug\2014Final.lastbuildstate"。
        InitializeBuildStatus:
-         正在變更時間戳記 "Debug\2014Final.unsuccessfulbuild"。
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\2014Final.unsuccessfulbuild"。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Course\gs\2014Final\Lua\include /ID:\Course\gs\2014Final\Fly2_API\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\2014Final.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Course\gs\2014Final\Lua\include /ID:\Course\gs\2014Final\Fly2_API\Include /ID:\Course\gs\2014Final\Lua\include /ID:\Course\gs\2014Final\Fly2_API\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2014Final.cpp
          2014Final.cpp
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(79): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Enemy' 的左方
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(730): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(35): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Actions' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(48): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Character' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(54): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'CharacterType' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(214): warning C4101: 'fDir' : 未參考的區域變數
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(357): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(375): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(514): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(750): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(515): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(751): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(516): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(752): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(518): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(753): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1021): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1046): warning C4715: 'InAttackRange' : 不是所有控制路徑都傳回值
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(537): warning C4715: 'Lyubu2Attack' : 不是所有控制路徑都傳回值
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Course\gs\2014Final\Lua\include /ID:\Course\gs\2014Final\Fly2_API\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt final_prototype.cpp
+         final_prototype.cpp
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\2014Final.res" 2014Final.rc 
        ManifestResourceCompile:
@@ -32,6 +39,7 @@
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Course\gs\2014Final\Lua\lib /LIBPATH:"D:\Course\gs\2014Final\Microsoft DirectX SDK (August 2009)\Lib\x86" /LIBPATH:D:\Course\gs\2014Final\Fly2_API\LibWin32 /LIBPATH:"D:\Course\gs\2014Final\OpenAL 1.1 SDK\libs\Win32" d3d9.lib d3dx9.lib OpenAL32.lib XInput.lib LibFly2DX9W32.lib liblua.dll.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2014Final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.lib" /MACHINE:X86 Debug\2014Final.res
          Debug\2014Final.exe.embed.manifest.res
          Debug\2014Final.obj
+         Debug\final_prototype.obj
          Debug\stdafx.obj
          LibFly2DX9W32.lib(FlyWin32.obj) : 找到 MSIL .netmodule 或以 /GL 編譯的模組。請以 /LTCG 重新啟動連結，將 /LTCG 加入連結命令列以提升連結器效能
      1>LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/LTCG' 規格
@@ -40,6 +48,7 @@
          已完成程式碼產生
      1>LibFly2DX9W32.lib(FlyWin32.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FlyWin32.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(Fly.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(Fly.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
+     1>LibFly2DX9W32.lib(FyMath.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMath.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyThreadPool.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyThreadPool.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyGamepad.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyGamepad.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyGameFX.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyGameFX.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
@@ -50,7 +59,6 @@
      1>LibFly2DX9W32.lib(FyObject.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyObject.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyText.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyText.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyMaterial.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMaterial.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
-     1>LibFly2DX9W32.lib(FyMath.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMath.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyOpenAL.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyOpenAL.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyDX9.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyDX9.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyShader.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyShader.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
@@ -66,6 +74,7 @@
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Course\gs\2014Final\Lua\lib /LIBPATH:"D:\Course\gs\2014Final\Microsoft DirectX SDK (August 2009)\Lib\x86" /LIBPATH:D:\Course\gs\2014Final\Fly2_API\LibWin32 /LIBPATH:"D:\Course\gs\2014Final\OpenAL 1.1 SDK\libs\Win32" d3d9.lib d3dx9.lib OpenAL32.lib XInput.lib LibFly2DX9W32.lib liblua.dll.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2014Final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Course\gs\2014Final\2014Final\Debug\2014Final.lib" /MACHINE:X86 Debug\2014Final.res
          Debug\2014Final.exe.embed.manifest.res
          Debug\2014Final.obj
+         Debug\final_prototype.obj
          Debug\stdafx.obj
          LibFly2DX9W32.lib(FlyWin32.obj) : 找到 MSIL .netmodule 或以 /GL 編譯的模組。請以 /LTCG 重新啟動連結，將 /LTCG 加入連結命令列以提升連結器效能
      1>LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/LTCG' 規格
@@ -74,6 +83,7 @@
          已完成程式碼產生
      1>LibFly2DX9W32.lib(FlyWin32.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FlyWin32.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(Fly.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(Fly.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
+     1>LibFly2DX9W32.lib(FyMath.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMath.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyThreadPool.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyThreadPool.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyGamepad.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyGamepad.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyGameFX.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyGameFX.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
@@ -84,7 +94,6 @@
      1>LibFly2DX9W32.lib(FyObject.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyObject.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyText.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyText.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyMaterial.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMaterial.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
-     1>LibFly2DX9W32.lib(FyMath.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyMath.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyOpenAL.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyOpenAL.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyDX9.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyDX9.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
      1>LibFly2DX9W32.lib(FyShader.obj) : warning LNK4099: 找不到 PDB 'vc100.pdb' (有 'LibFly2DX9W32.lib(FyShader.obj)' 或位於 'D:\Course\gs\2014Final\2014Final\Debug\vc100.pdb')，當做沒有偵錯資訊，連結物件
@@ -100,4 +109,4 @@
 
 建置成功。
 
-經過時間 00:00:46.98
+經過時間 00:00:47.66
