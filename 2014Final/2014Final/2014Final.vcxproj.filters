@@ -44,13 +44,10 @@
     <ClCompile Include="final_prototype.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="NTU_FX.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="test_sprite_ntu.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="2014Final.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="hw3.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
