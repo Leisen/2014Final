@@ -1,4 +1,4 @@
-﻿已經開始建置於 2015/1/3 下午 10:04:10。
+﻿已經開始建置於 2015/1/3 下午 11:00:56。
      1>節點 2 (rebuild 目標) 上的專案 "D:\Course\gs\2014Final\2014Final\2014Final\2014Final.vcxproj"。
      1>_PrepareForClean:
          正在刪除檔案 "Debug\2014Final.lastbuildstate"。
@@ -57,17 +57,17 @@
      1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(806): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
      1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(819): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(858): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(886): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1087): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1102): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1103): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1110): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1110): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1115): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1115): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1120): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1120): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(870): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(898): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1089): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1104): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1105): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1112): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1112): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1117): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1117): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1122): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(1122): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
          正在產生程式碼...
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\2014Final.res" 2014Final.rc 
@@ -147,4 +147,4 @@
 
 建置成功。
 
-經過時間 00:00:47.49
+經過時間 00:00:47.02
