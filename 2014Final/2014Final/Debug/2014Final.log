@@ -1,4 +1,4 @@
-﻿已經開始建置於 2015/1/3 上午 02:45:44。
+﻿已經開始建置於 2015/1/3 下午 01:40:17。
      1>節點 2 (rebuild 目標) 上的專案 "D:\Course\gs\2014Final\2014Final\2014Final\2014Final.vcxproj"。
      1>_PrepareForClean:
          正在刪除檔案 "Debug\2014Final.lastbuildstate"。
@@ -10,57 +10,58 @@
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Course\gs\2014Final\Lua\include /ID:\Course\gs\2014Final\Fly2_API\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2014Final.cpp final_prototype.cpp
          final_prototype.cpp
          2014Final.cpp
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(54): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Actions' 的左方
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(72): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Character' 的左方
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(78): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'CharacterType' 的左方
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(83): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Event' 的左方
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(221): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(225): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(258): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(58): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Actions' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(75): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Character' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(81): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'CharacterType' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(86): warning C4091: 'typedef ' : 當沒有宣告變數時，忽略 'Event' 的左方
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(232): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(236): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(269): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(284): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(274): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(272): warning C4101: 'buff' : 未參考的區域變數
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(310): warning C4101: 'fDir' : 未參考的區域變數
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(521): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(522): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(534): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(534): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(536): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(536): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(540): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(540): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(542): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(542): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(546): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(546): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(548): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(548): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(550): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(551): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(557): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(573): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(591): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(330): warning C4101: 'fDir' : 未參考的區域變數
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(573): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(574): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(586): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(586): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(588): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(588): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(592): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(592): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(594): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(594): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(598): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(598): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(600): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(600): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(602): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(603): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(609): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(625): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(643): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(601): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(653): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(607): warning C4018: '>' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(609): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(659): warning C4018: '>' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(661): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(615): warning C4018: '>' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(619): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(653): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(656): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(667): warning C4018: '>' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(671): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(705): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(708): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(669): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(670): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(721): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(722): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(708): warning C4018: '<' : signed/unsigned 不相符
-     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(733): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(760): warning C4018: '<' : signed/unsigned 不相符
+     1>d:\course\gs\2014final\2014final\2014final\2014final.cpp(788): warning C4018: '<' : signed/unsigned 不相符
          正在產生程式碼...
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\2014Final.res" 2014Final.rc 
@@ -140,4 +141,4 @@
 
 建置成功。
 
-經過時間 00:00:47.15
+經過時間 00:00:55.46
